@@ -58,19 +58,36 @@ footer>p{color: red;
   left: 45%;
 
 }
+/* @media screen and (max-width: 1024px){
+  header{  background-color: red;
+  
+  }
+}
+@media screen and (max-width: 768px){
+  header{  background-color: blue;
+  
+  }
+}
+
+@media screen and (max-width: 480px){
+  header{  background-color: yellow;
+  
+  }
+} */
 @media screen and (min-width: 480px){
   header{  background-color: yellow;
   
   }
 }
+
 @media screen and (min-width: 768px){
   header{  background-color: blue;
   
   }
 }
+
+
 @media screen and (min-width: 1024px){
   header{  background-color: red;
   
-  }
-}
-    
+  } }
