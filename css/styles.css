@@ -21,7 +21,7 @@ left: 40%;
   position: absolute;
   z-index: 2;
 }
-.testdelete
+
 .content {
   position: static;
   max-width: 80%;
@@ -58,5 +58,19 @@ footer>p{color: red;
   left: 45%;
 
 }
-
+@media screen and (max-width: 480px){
+  header{  background-color: yellow;
+  
+  }
+}
+@media screen and (max-width: 768px){
+  header{  background-color: blue;
+  
+  }
+}
+@media screen and (max-width: 1024px){
+  header{  background-color: red;
+  
+  }
+}
     
