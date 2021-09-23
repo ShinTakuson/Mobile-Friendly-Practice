@@ -1,4 +1,6 @@
-body {margin: 0;}
+body {
+  margin: 0;
+}
 body + div {
   border: 5px solid red;
   height: 500px;
@@ -16,8 +18,8 @@ body + div {
 .title {
   color: white;
   text-align: center;
- top: 5%;
-left: 40%;
+  top: 5%;
+  left: 40%;
   position: absolute;
   z-index: 2;
 }
@@ -26,7 +28,6 @@ left: 40%;
   position: static;
   max-width: 80%;
   margin: auto;
-
 }
 .heading {
   color: rgba(9, 109, 121, 1);
@@ -49,14 +50,14 @@ footer {
   position: fixed;
   bottom: 0%;
 }
-footer>p{color: red;
-    height: 10px;
-    padding: 10px;
-    display: block;
+footer > p {
+  color: red;
+  height: 10px;
+  padding: 10px;
+  display: block;
   position: absolute;
   bottom: 15%;
   left: 45%;
-
 }
 /* @media screen and (max-width: 1024px){
   header{  background-color: red;
@@ -74,20 +75,57 @@ footer>p{color: red;
   
   }
 } */
-@media screen and (min-width: 480px){
-  header{  background-color: yellow;
-  
+@media screen and (min-width: 480px) {
+  header {
+    background-color: yellow;
+  }
+  .stop01{
+    stop-color: rgb(35, 163, 214); stop-opacity: 1;
+   }
+     .stop02{
+    
+    stop-color: rgb(5, 60, 112); stop-opacity: 1;
+   }
+     .stop03{
+     offset:  100%;
+    stop-color: rgb(1, 6, 7); stop-opacity: 1;
+   }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: blue;
+  }
+  .stop01 {
+    stop-color: rgb(158, 246, 158);
+    stop-opacity: 1;
+  }
+  .stop02 {
+    stop-color: rgb(17, 71, 30);
+    stop-opacity: 1;
+  }
+  .stop03 {
+    offset: 100%;
+    stop-color: rgb(2, 122, 2);
+    stop-opacity: 1;
   }
 }
 
-@media screen and (min-width: 768px){
-  header{  background-color: blue;
-  
+@media screen and (min-width: 1024px) {
+  header {
+    background-color: red;
+  }
+  .stop01 {
+    stop-color: rgb(23, 167, 23);
+    stop-opacity: 1;
+  }
+  .stop02 {
+    stop-color: rgb(182, 27, 27);
+    stop-opacity: 1;
+  }
+  .stop03 {
+    offset: 100%;
+    stop-color: rgba(0, 212, 255, 1);
+    stop-opacity: 1;
   }
 }
-
-
-@media screen and (min-width: 1024px){
-  header{  background-color: red;
-  
-  } }
